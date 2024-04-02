@@ -1,0 +1,39 @@
+#menu {
+    border: 1px solid black;
+}
+
+#menu>ul {
+    background-color: aqua;
+
+}
+
+#menu ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+
+}
+
+#menu ul a {
+color: white;
+text-decoration: none;
+padding: 0 15px;
+}
+#menu ul li{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#menu ul ul{
+    position: absolute;
+    background-color: blue;
+    top: 100%;
+    left: 0;
+}
+#menu ul ui li{
+    float: none;
+    width: 200px;
+}

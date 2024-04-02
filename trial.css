@@ -1,0 +1,60 @@
+#menu{
+    border: 1px solid white;
+    color: black;
+    
+}
+#menu >ul{
+    background-color: aqua;
+}
+#menu ul{
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#menu ul a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 32px;
+    padding: 0 15px;
+    display: block;
+}
+#menu ul li {
+float: left;
+position: relative;
+margin: 0;
+padding: 0;
+}
+#menu ul ul{
+    position: absolute;
+    background-color:aliceblue ;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+#menu ul ul li{
+    float: none;
+    width: 270px;
+}
+#menu ul ul ul{
+    top: 0;
+    left: 100%;
+}
+#menu ul li:hover >ul{
+display: block;
+}
+
+.lst-img{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+

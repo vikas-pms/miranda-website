@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                <button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false"
+                    aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </a>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <div class="mt-5"><img src="miranda.webp" alt=""></div>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="dropdown mt-3">
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown"
+                            aria-expanded="false">HOME</a>
+                        <hr>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">SLIDER STYLE</a> </li>
+                            <li><a class="dropdown-item" href="#">CLASSIC STYTLE</a></li>
+                            <li><a class="dropdown-item" href="#">FIRST LARGE AND GRID</a></li>
+                            <li><a class="dropdown-item" href="#">FIRST LARGE AND LIST</a></li>
+                            <li><a class="dropdown-item" href="#">OVERLAY THEN LIST</a></li>
+                            <li><a class="dropdown-item" href="#">OVERLAY THEN GRID</a></li>
+                            <li><a class="dropdown-item" href="#">MIXED LARGE AND GRID</a></li>
+                            <li><a class="dropdown-item" href="#">MIXED LARGE AND LIST</a></li>
+                            <li><a class="dropdown-item" href="#">LIST LAYOUT</a></li>
+                            <li><a class="dropdown-item" href="#">GRID LAYOUT</a></li>
+                            <li><a class="dropdown-item" href="#">VIEW ALL HOMES</a></li>
+                        </ul>
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown"
+                            aria-expanded="false">FEATURES</a>
+                        <hr>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">14 + UNIQUE DESIGNS</a></li>
+                            <li><a class="dropdown-item" href="#">POST STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">HEADER STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">FOOTER STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">GUTENBERG STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">HOME SLIDERS</a></li>
+                            <li><a class="dropdown-item" href="#">PAGES & TEMPLATES</a></li>
+                            <li><a class="dropdown-item" href="#">CATEGORY LAYOUTS</a></li>
+                            <li><a class="dropdown-item" href="#">GALLERIES</a></li>
+                            <li><a class="dropdown-item" href="#">SHOP / WOOCOMMERCE</a></li>
+                            <li><a class="dropdown-item" href="#">RECIPES & INDEX</a></li>
+                            <li><a class="dropdown-item" href="#">TOPBAR & NAVIGATION</a></li>
+                            <li><a class="dropdown-item" href="#">OTHER ARCHIVES</a></li>
+                            <li><a class="dropdown-item" href="#">AMP EXAMPLE</a></li>
+                        </ul>
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown"
+                            aria-expanded="false">SHOP</a>
+                        <hr>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">THE SHOP</a></li>
+                            <li><a class="dropdown-item" href="#">CART</a></li>
+                            <li><a class="dropdown-item" href="#">MY ACCOUNT</a></li>
+                            <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+                        </ul>
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown"
+                            aria-expanded="false">TRAVEL</a>
+                        <hr>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">14 + UNIQUE DESIGNS</a></li>
+                            <li><a class="dropdown-item" href="#">POST STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">HEADER STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">FOOTER STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">GUTENBERG STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">HOME SLIDERS</a></li>
+                            <li><a class="dropdown-item" href="#">PAGES & TEMPLATES</a></li>
+                            <li><a class="dropdown-item" href="#">CATEGORY LAYOUTS</a></li>
+                            <li><a class="dropdown-item" href="#">GALLERIES</a></li>
+                            <li><a class="dropdown-item" href="#">SHOP / WOOCOMMERCE</a></li>
+                            <li><a class="dropdown-item" href="#">RECIPES & INDEX</a></li>
+                            <li><a class="dropdown-item" href="#">TOPBAR & NAVIGATION</a></li>
+                            <li><a class="dropdown-item" href="#">OTHER ARCHIVES</a></li>
+                            <li><a class="dropdown-item" href="#">AMP EXAMPLE</a></li>
+                        </ul>
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown"
+                            aria-expanded="false">LIFESTYLE</a>
+                        <hr>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">14 + UNIQUE DESIGNS</a></li>
+                            <li><a class="dropdown-item" href="#">POST STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">HEADER STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">FOOTER STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">GUTENBERG STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">HOME SLIDERS</a></li>
+                            <li><a class="dropdown-item" href="#">PAGES & TEMPLATES</a></li>
+                            <li><a class="dropdown-item" href="#">CATEGORY LAYOUTS</a></li>
+                            <li><a class="dropdown-item" href="#">GALLERIES</a></li>
+                            <li><a class="dropdown-item" href="#">SHOP / WOOCOMMERCE</a></li>
+                            <li><a class="dropdown-item" href="#">RECIPES & INDEX</a></li>
+                            <li><a class="dropdown-item" href="#">TOPBAR & NAVIGATION</a></li>
+                            <li><a class="dropdown-item" href="#">OTHER ARCHIVES</a></li>
+                            <li><a class="dropdown-item" href="#">AMP EXAMPLE</a></li>
+                        </ul>
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown" aria-expanded="false">BUY
+                            THEME</a>
+                        <hr>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">14 + UNIQUE DESIGNS</a></li>
+                            <li><a class="dropdown-item" href="#">POST STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">HEADER STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">FOOTER STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">GUTENBERG STYLES</a></li>
+                            <li><a class="dropdown-item" href="#">HOME SLIDERS</a></li>
+                            <li><a class="dropdown-item" href="#">PAGES & TEMPLATES</a></li>
+                            <li><a class="dropdown-item" href="#">CATEGORY LAYOUTS</a></li>
+                            <li><a class="dropdown-item" href="#">GALLERIES</a></li>
+                            <li><a class="dropdown-item" href="#">SHOP / WOOCOMMERCE</a></li>
+                            <li><a class="dropdown-item" href="#">RECIPES & INDEX</a></li>
+                            <li><a class="dropdown-item" href="#">TOPBAR & NAVIGATION</a></li>
+                            <li><a class="dropdown-item" href="#">OTHER ARCHIVES</a></li>
+                            <li><a class="dropdown-item" href="#">AMP EXAMPLE</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                HOME
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">SLIDER STYLE</a> </li>
+                                <li><a class="dropdown-item" href="#">CLASSIC STYTLE</a></li>
+                                <li><a class="dropdown-item" href="#">FIRST LARGE AND GRID</a></li>
+                                <li><a class="dropdown-item" href="#">FIRST LARGE AND LIST</a></li>
+                                <li><a class="dropdown-item" href="#">OVERLAY THEN LIST</a></li>
+                                <li><a class="dropdown-item" href="#">OVERLAY THEN GRID</a></li>
+                                <li><a class="dropdown-item" href="#">MIXED LARGE AND GRID</a></li>
+                                <li><a class="dropdown-item" href="#">MIXED LARGE AND LIST</a></li>
+                                <li><a class="dropdown-item" href="#">LIST LAYOUT</a></li>
+                                <li><a class="dropdown-item" href="#">GRID LAYOUT</a></li>
+                                <li><a class="dropdown-item" href="#">VIEW ALL HOMES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                FEATURES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">14 + UNIQUE DESIGNS</a></li>
+                                <li><a class="dropdown-item" href="#">POST STYLES</a></li>
+                                <li><a class="dropdown-item" href="#">HEADER STYLES</a></li>
+                                <li><a class="dropdown-item" href="#">FOOTER STYLES</a></li>
+                                <li><a class="dropdown-item" href="#">GUTENBERG STYLES</a></li>
+                                <li><a class="dropdown-item" href="#">HOME SLIDERS</a></li>
+                                <li><a class="dropdown-item" href="#">PAGES & TEMPLATES</a></li>
+                                <li><a class="dropdown-item" href="#">CATEGORY LAYOUTS</a></li>
+                                <li><a class="dropdown-item" href="#">GALLERIES</a></li>
+                                <li><a class="dropdown-item" href="#">SHOP / WOOCOMMERCE</a></li>
+                                <li><a class="dropdown-item" href="#">RECIPES & INDEX</a></li>
+                                <li><a class="dropdown-item" href="#">TOPBAR & NAVIGATION</a></li>
+                                <li><a class="dropdown-item" href="#">OTHER ARCHIVES</a></li>
+                                <li><a class="dropdown-item" href="#">AMP EXAMPLE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                SHOP
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">THE SHOP</a></li>
+                                <li><a class="dropdown-item" href="#">CART</a></li>
+                                <li><a class="dropdown-item" href="#">MY ACCOUNT</a></li>
+                                <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                TRAVEL
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                LIFESTYLE
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="">BUYTHEME</a></li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" href="#">LATEST POSTS :</a>
+
+                <ul class="navbar-nav fs-6">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">BASIC INNER WORKING OF CAMARA</a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link" href="#">VINTAGE BEAUTY IN DECORATIONS</a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link" href="#">MY SHINY NEW BACKPACK</a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link disabled" aria-disabled="true">PROSE & CONS OF BEINGS A MODEL</a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link disabled" aria-disabled="true">A GUIDE TO LATEST IN FASHION</a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link disabled" aria-disabled="true">MORNING COFFEE SMELLS SWEET</a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link disabled" aria-disabled="true">MINIMA LIST INTERIOR MAKEOVER</a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link disabled" aria-disabled="true">BLOOMING FLOWERS IN HOUSE</a>
+                    </li>
+                </ul>
+
+                <div class="nav-icon">
+                    <a href=""><i class="bi bi-facebook text-light"></i></a>
+                    <a href=""><i class="bi bi-twitter-x text-light"></i></a>
+                    <a href=""><i class="bi bi-tiktok text-light"></i></a>
+                    <a href=""><i class="bi bi-instagram text-light"></i></a>
+                    <a href=""><i class="bi bi-pinterest text-light"></i></a>
+                    <a href=""><i class="bi bi-vimeo text-light"></i></a>
+                </div>
+            </div>
+        </nav>
+        <div class="m-5">
+            <img src="miranda.webp" class="rounded mx-auto d-block" alt="...">
+        </div>
+        <hr>
+        <nav class="navbar navbar-expand-lg bg-secondary mx-auto ">
+            <div class="container-fluid ">
+                
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                HOME
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">SLIDER STYLE</a>
+
+                                </li>
+                                <li><a class="dropdown-item" href="#">CLASSIC STYTLE</a></li>
+                                <li><a class="dropdown-item" href="#">FIRST LARGE AND GRID</a></li>
+                                <li><a class="dropdown-item" href="#">FIRST LARGE AND LIST</a></li>
+                                <li><a class="dropdown-item" href="#">OVERLAY THEN LIST</a></li>
+                                <li><a class="dropdown-item" href="#">OVERLAY THEN GRID</a></li>
+                                <li><a class="dropdown-item" href="#">MIXED LARGE AND GRID</a></li>
+                                <li><a class="dropdown-item" href="#">MIXED LARGE AND LIST</a></li>
+                                <li><a class="dropdown-item" href="#">LIST LAYOUT</a></li>
+                                <li><a class="dropdown-item" href="#">GRID LAYOUT</a></li>
+                                <li><a class="dropdown-item" href="#">VIEW ALL HOMES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                FEATURES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">14 + UNIQUE DESIGNS</a></li>
+                                <li><a class="dropdown-item" href="#">POST STYLES</a></li>
+                                <li><a class="dropdown-item" href="#">HEADER STYLES</a></li>
+                                <li><a class="dropdown-item" href="#">FOOTER STYLES</a></li>
+                                <li><a class="dropdown-item" href="#">GUTENBERG STYLES</a></li>
+                                <li><a class="dropdown-item" href="#">HOME SLIDERS</a></li>
+                                <li><a class="dropdown-item" href="#">PAGES & TEMPLATES</a></li>
+                                <li><a class="dropdown-item" href="#">CATEGORY LAYOUTS</a></li>
+                                <li><a class="dropdown-item" href="#">GALLERIES</a></li>
+                                <li><a class="dropdown-item" href="#">SHOP / WOOCOMMERCE</a></li>
+                                <li><a class="dropdown-item" href="#">RECIPES & INDEX</a></li>
+                                <li><a class="dropdown-item" href="#">TOPBAR & NAVIGATION</a></li>
+                                <li><a class="dropdown-item" href="#">OTHER ARCHIVES</a></li>
+                                <li><a class="dropdown-item" href="#">AMP EXAMPLE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                SHOP
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">THE SHOP</a></li>
+                                <li><a class="dropdown-item" href="#">CART</a></li>
+                                <li><a class="dropdown-item" href="#">MY ACCOUNT</a></li>
+                                <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                TRAVEL
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                LIFESTYLE
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="">BUYTHEME</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-lg-8 p-5">
+            <div class="text-center">
+                <i class="fw-bold">in <span class="text-danger">LIFESTYLE</span></i>
+                <P class="fs-1">Pleasant Colors <i class="fw-bold">in</i> Garden</P>
+                <p class="fs-6">May 14, 2024 - COMMENTS</p>
+            </div>
+            <img src="main-image.jpg" class="img-fluid " alt="...">
+            <p class="mt-5">More off this less hello salamander lied porpoise much over tightly circa horse taped so
+                innocuously
+                outside crud mightily rigorous negative one inside gorilla and drew humbly shot tortoise inside
+                opaquely. Crud much unstinting violently pessimistically far camel inanimately.</p>
+            <p class="mt-5">Coquettish darn pernicious foresaw therefore much amongst lingeringly shed much due
+                antagonistically
+                alongside so then more and about turgid wrote so stunningly this that much slew.</p>
+            <div class="d-flex gap-4">
+                <div><img src="double.png" alt=""></div>
+                <p class=" fst-italic fs-5 fw-normal">Craft beer elit seitan exercitation, photo booth et 8-bit kale
+                    chips proident chillwave deep v laborum.
+                    Aliquip veniam delectu</p>
+            </div>
+            <p class="ms-5 fw-semibold">-SHANE DOE</p>
+            <p class="mt-5">That far ground rat pure from newt far panther crane lorikeet overlay alas cobra across much
+                gosh less
+                goldfinch ruthlessly alas examined and that more and the ouch jeez.</p>
+            <p class="fw-bold mt-5">Paris Fashion Week</p>
+            <p class="mt-5">Forbade panther desolately iguanodon alas in goodness goodness re-laid when wishful but yet
+                and trim hey
+                went the tamarin some during obsessively into far notwithstanding aristocratic a ouch jeez goodness
+                chameleon because piranha. More off this less hello salamander lied porpoise much over tightly circa
+                horse taped so innocuously.</p>
+            <p class="mt-5 mb-5">Coquettish darn pernicious foresaw therefore much amongst lingeringly shed much due
+                antagonistically
+                alongside so then more and about turgid wrote so stunningly this that much slew.</p>
+            <img src="riad-edward1.webp" class="img-fluid " alt="...">
+            <p class="text-center fw-bold fst-italic m-3">Leading on the old doors</p>
+            <img src="guld-halskæde.webp" class="img-fluid " alt="...">
+            <p class="text-center fw-bold fst-italic m-3">Close-up of dress top</p>
+            <img src="flowy-dress.webp" class="img-fluid " alt="...">
+            <p class="text-center fw-bold fst-italic m-3">Red flowy dress</p>
+            <img src="toga-pulla.webp" class="img-fluid " alt="...">
+            <p class="text-center fw-bold fst-italic m-3">Posing by the plants</p>
+            <p>That far ground rat pure from newt far panther crane lorikeet overlay alas cobra across much gosh less
+                goldfinch ruthlessly alas examined and that more and the ouch jeez.</p>
+            <p>Crud much unstinting violently pessimistically far camel inanimately a remade dove disagreed hellish one
+                concisely before with this erotic frivolous.</p>
+            <p class="fw-bold ">Shoot for the stars</p>
+            <p>More off this less hello salamander lied porpoise much over tightly circa horse taped so innocuously
+                outside crud mightily rigorous negative one inside gorilla and drew humbly shot tortoise inside
+                opaquely. Crud much unstinting violently pessimistically far camel inanimately then more and about.</p>
+            <p>Forbade panther desolately iguanodon alas in goodness goodness re-laid when wishful but yet and trim hey
+                went the tamarin some during obsessively into far notwithstanding then more.</p>
+            <p>Crud much unstinting violently pessimistically far camel inanimately a remade dove disagreed hellish one
+                concisely before with this erotic frivolous.</p>
+            <div class="d-flex justify-content-between">
+                <nav>
+                    <form class="container-fluid">
+                        <button class="btn btn-sm btn-outline-secondary bg-light me-2 " type="button">Fashion</button>
+                        <button class="btn btn-sm btn-outline-secondary bg-light me-2"
+                            type="button">Photography</button>
+                        <button class="btn btn-sm btn-outline-secondary bg-light" type="button">Slider</button>
+                    </form>
+                </nav>
+                <nav>
+                    <form class="container-fluid">
+                        <div class="btn btn-sm border border-solid rounded-pill"><i
+                                class="bi bi-heart-fill text-danger  ">13</i></div>
+                        <div class="btn btn-sm border border-solid rounded-pill hover:text-danger"><i
+                                class="bi bi-facebook text-slate"></i></div>
+                        <div class="btn btn-sm border border-solid rounded-pill"><i
+                                class="bi bi-twitter-x text-slate"></i></div>
+                        <div class="btn btn-sm border border-solid rounded-pill"><i
+                                class="bi bi-pinterest text-slate"></i></div>
+                        <div class="btn btn-sm border border-solid rounded-pill"><i class="bi bi-vimeo text-slate"></i>
+                        </div>
+                        <div class="btn btn-sm border border-solid rounded-pill"><i class="bi bi-envelope"></i></div>
+                    </form>
+                </nav>
+            </div>
+            
+            
+            <div class="text-center mt-5 mb-5">
+                <i class="bi bi-facebook text-slate"></i>
+                <i class="bi bi-twitter-x text-slate"></i>
+                <i class="bi bi-instagram text-slate"></i>
+            </div>
+            <div class="position-relative">
+                <hr class="my-2">
+                <p class="fw-bold text-center bg-light px-5" style="position: absolute; top: -13px; left: 40%;">Releted
+                    Post</p>
+
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5">
+                <div class="col">
+                    <div class="card ">
+                        <img src="1703.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <p class="text-center fw-bold">Jeans Shorts Are in Vogue</p>
+                    <p class="text-center ">MAY 14, 2024 </p>
+                </div>
+                <div class="col">
+                    <div class="card ">
+                        <img src="1704.webp" class="card-img-top" alt="...">
+                    </div>
+                    <p class="text-center fw-bold">Morning Coffee Smells Sweet</p>
+                    <p class="text-center "> MAY 15, 2024</p>
+                </div>
+                <div class="col">
+                    <div class="card ">
+                        <img src="1703.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <p class="text-center fw-bold">Jeans Shorts Are in Vogue</p>
+                    <p class="text-center "> MAY 14, 2024</p>
+                </div>
+
+            </div>
+            <div class="position-relative">
+                <hr class="my-2">
+                <p class="fw-bold text-center bg-light px-5" style="position: absolute; top: -13px; left: 40%;"> <span
+                        class="text-danger">4</span> Comment</p>
+
+            </div>
+            <div class="d-flex mt-5">
+                <div class="d-flex gap-4">
+                    <img src="Shane-Doe_avatar_1464475317.jpg" class=" rounded rounded   rounded-pill h-50 w-1 "
+                        alt="...">
+                    <div>
+                        <p class="fw-bold">BELLA DOE</p>
+                        <p class="fw-semibold">8 YEARS AGO</p>
+                        <p>That far ground rat pure from newt far panther crane lorikeet overlay alas cobra across much
+                            gosh less goldfinch ruthlessly alas examined and that more and the ouch jeez.</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-2">
+                    <div><img src="reply (2).png" alt=""></div>
+                    <p class="text-danger fw-bold">REPLY</p>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex mt-5 ms-5">
+                <div class="d-flex gap-4">
+                    <img src="Shane-Doe_avatar_1464475317.jpg" class=" rounded rounded   rounded-pill h-50 w-1 "
+                        alt="...">
+                    <div>
+                        <p class="fw-bold">JANE DOE</p>
+                        <p class="fw-semibold">8 YEARS AGO</p>
+                        <p>Coquettish darn pernicious foresaw therefore much amongst lingeringly shed much due
+                            antagonistically alongside so then more and about turgid./p>
+                    </div>
+                </div>
+                <div class="d-flex gap-2">
+                    <div><img src="reply (2).png" alt=""></div>
+                    <p class="text-danger fw-bold">REPLY</p>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex mt-5 ms-5">
+                <div class="d-flex gap-4">
+                    <img src="Shane-Doe_avatar_1464475317.jpg" class=" rounded rounded   rounded-pill h-50 w-1 "
+                        alt="...">
+                    <div>
+                        <p class="fw-bold">SHANE DOE</p>
+                        <p class="fw-semibold">5 YEARS AGO</p>
+                        <p>Crud much unstinting violently pessimistically far camel inanimately a remade dove disagreed
+                            hellish one concisely before with this erotic frivolous.</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-2">
+                    <div><img src="reply (2).png" alt=""></div>
+                    <p class="text-danger fw-bold">REPLY</p>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex mt-5">
+                <div class="d-flex gap-4">
+                    <img src="Shane-Doe_avatar_1464475317.jpg" class=" rounded rounded   rounded-pill h-50 w-1 "
+                        alt="...">
+                    <div>
+                        <p class="fw-bold">BELLA DOE</p>
+                        <p class="fw-semibold">8 YEARS AGO</p>
+                        <p>Crud much unstinting violently pessimistically far camel inanimately a remade dove disagreed
+                            hellish one concisely before with this erotic frivolous.</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-2">
+                    <div><img src="reply (2).png" alt=""></div>
+                    <p class="text-danger fw-bold">REPLY</p>
+                </div>
+            </div>
+            <div class="position-relative">
+                <hr class="my-2">
+                <p class="fw-bold text-center bg-light px-5" style="position: absolute; top: -13px; left: 40%;">Write A
+                    Comment</p>
+
+            </div>
+            <div class="row g-2 mt-5">
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com">
+                        <label for="floatingInputGrid">Name</label>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com">
+                        <label for="floatingInputGrid">Email </label>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com">
+                        <label for="floatingInputGrid">Website</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-floating mt-4">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 200px"></textarea>
+                <label for="floatingTextarea2">Enter your comment here...</label>
+            </div>
+            <div class="form-check mt-4">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Save my name, email, and website in this browser for the next time I comment.
+                </label>
+            </div>
+            <button type="button" class="btn btn-danger btn-lg rounded-0 mt-4">Post Comment</button>
+        </div>
+        <!-- Aboute Shane Doe -->
+        <div class="col-lg-4 mt-5">
+            <div class="card">
+                <p class="text-center fw-bold">ABOUT SHANE DOE</p>
+                <hr>
+                <img src="caplady.webp" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                    <p class="card-text">I'm Shane, a girly girl and lover of life. Join me on the journey to find
+                        latest in fashion.</p>
+                    <p class="text-danger fw-bold text-center">READ MORE</p>
+                </div>
+            </div>
+
+            <div class="card mt-5">
+                <p class="text-center fw-bold">CONNECT & FOLLOW</p>
+                <hr>
+                <div class="card-body d-flex justify-content-center gap-4">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter-x"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-pinterest"></i>
+                    <i class="bi bi-vimeo"></i>
+                    <i class="bi bi-tiktok"></i>
+                    <i class="bi bi-wifi"></i>
+                </div>
+            </div>
+            <div class="card mb-3 mt-5 ">
+                <div class="card-body text-dark ">
+                    <p class="fw-bold text-center">NEWSLETTER</p>
+                    <p>Enter your email address below to subscribe to my newslette</p>
+                    <div class="w-100"><input class="w-100" type="email" id="" placeholder="Your email address">
+                    </div>
+                    <button class="bg-danger border-0 mt-2 mb-2 w-100">SUBSCRIBE</button>
+                </div>
+            </div>
+
+            <div class="card mb-3 gap-4 mt-5 " style="max-width: 540px;">
+                <p class="text-center border border-top-0 border-left-0 border-right-0 fw-bold">LATEST POSTS</p>
+                <div class="row g-0 ms-3">
+                    <div class="col-md-4">
+                        <img src="1700.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body ">
+                            <p>Basic Inner Workings...</p>
+                            <div class="d-flex gap-4">
+                                <p class="text-danger">STYLE</p>
+                                <p>MAY 15,2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0 ms-3">
+                    <div class="col-md-4">
+                        <img src="1700.webp" class="img-fluid rounded-start " alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p>Vintage Beauty in De...</p>
+                            <div class="d-flex gap-4">
+                                <p class="text-danger">STYLE</p>
+                                <p>MAY 15,2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0 ms-3">
+                    <div class="col-md-4">
+                        <img src="1700.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p>My Shiny And backp...</p>
+                            <div class="d-flex gap-4">
+                                <p class="text-danger">STYLE</p>
+                                <p>MAY 15,2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0 ms-3">
+                    <div class="col-md-4">
+                        <img src="1700.webp" class="img-fluid rounded-start " alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p>Pros & Cons of Being...</p>
+                            <div class="d-flex gap-4">
+                                <p class="text-danger">STYLE</p>
+                                <p>MAY 15,2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="border mt-5">
+                <p class="text-center fw-bold">INSTAGRAM</p>
+                <hr>
+                <div class="grid grid-cols-3 text-center mt-3 mb-3">
+                    <img class="h-25 w-25" src="one.jpg" alt="">
+                    <img class="h-25 w-25" src="two.webp" alt="">
+                    <img class="h-25 w-25" src="three.jpg" alt="">
+                    <img class="h-25 w-25" src="four.jpg" alt="">
+                    <img class="h-25 w-25" src="five.jpg" alt="">
+                    <img class="h-25 w-25" src="six.jpg" alt="">
+                </div>
+            </div>
+            <div class="border border-top-color-danger mt-5 sticky-top">
+                <p class="text-center fw-bold">CATEGORIES</p><hr>
+                <ul class="d-flex justify-content-between ms-3 me-5" style="list-style-type: circle;">
+                    <li class="text-danger"><span class="text-dark">Beauty</span></li>
+                    <p>(7)</p>
+                </ul>
+                <hr class="ms-4 me-5">
+                <ul class="d-flex justify-content-between ms-3 me-5"  style="list-style-type: circle;">
+                    <li class="text-danger"><span class="text-dark">Fashion</span></li>
+                    <p>(9)</p>
+                </ul>
+                <hr class="ms-4 me-5">
+                <ul class="d-flex justify-content-between ms-3 me-5"  style="list-style-type: circle;">
+                    <li class="text-danger"><span class="text-dark">Lifestyle</span></li>
+                    <p>(14)</p>
+                </ul>
+                <hr class="ms-4 me-5">
+                <ul class="d-flex justify-content-between ms-3 me-5 "  style="list-style-type: circle;">
+                    <li class="text-danger"><span class="text-dark">Travel</span></li>
+                    <p>(10)</p>
+                </ul>
+                <hr class="ms-4 me-5">
+            </div>
+        </div>
+        <footer class="mt-5">
+            <div class="card-group ">
+                <div class="card">
+                    <img src="one.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="two.webp" class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="three.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="four.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="five.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="six.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class=" row ms-5 me-5 mt-5">
+                <div class="col-lg-4 justify-content-center">
+                    <p class="fw-bold">About Me</p>
+                    <hr>
+                    <div class="col" style="height: 500px; width: 300px;">
+                        <div class="card ">
+                            <img src="caplady.webp" class="card-img-top" st alt="...">
+                        </div>
+                        <p class="text-center mt-5 "> Sed ut in perspiciatis unde omnis iste natus error sit on i tatem
+                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <p class="fw-bold">LATEST POSTS</p>
+                    <hr>
+                    <div class=" mb-3 " style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="1700.webp" class="img-fluid rounded-start" style="height: 100px;width: 100px;"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title  fw-bold">
+                                        Basic Inner Workings of Camera</p>
+                                    <div class="d-flex">
+                                        <p class="card-text text-danger">TLIFESTYLE
+                                        </p>
+                                        <p class="card-text"><small class="text-body-secondary"> MAY 15, 2024</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 mt-5">
+                            <div class="col-md-4">
+                                <img src="1700.webp" class="img-fluid rounded-start" style="height: 100px;width: 100px;"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8 ">
+                                <div class="card-body">
+                                    <p class="card-title fw-bold">Vintage Beauty in Decorations</p>
+                                    <div class="d-flex gap-2">
+                                        <p class="card-text text-danger">LIFESTYLE
+                                        </p>
+                                        <p class="card-text"><small class="text-body-secondary"> MAY 15, 2024</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 mt-5">
+                            <div class="col-md-4">
+                                <img src="1700.webp" class="img-fluid rounded-start" style="height: 100px;width: 100px;"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title fw-bold">
+                                        My Shiny New Backpack</p>
+                                    <div class="d-flex gap-2">
+                                        <p class="card-text text-danger">FASHION
+                                        </p>
+                                        <p class="card-text"><small class="text-body-secondary"> MAY 15, 2024</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="fw-bold">POPULAR POSTS</p>
+                    <hr>
+                    <div class=" mb-3 " style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="1700.webp" class="img-fluid rounded-start" style="height: 100px;width: 100px;"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Basic Inner Workings of Camera</h5>
+                                    <div class="d-flex">
+                                        <p class="card-text text-danger">TLIFESTYLE
+                                        </p>
+                                        <p class="card-text"><small class="text-body-secondary"> MAY 15, 2024</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 mt-5">
+                            <div class="col-md-4">
+                                <img src="1700.webp" class="img-fluid rounded-start" style="height: 100px;width: 100px;"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8 ">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vintage Beauty in Decorations</h5>
+                                    <div class="d-flex gap-2">
+                                        <p class="card-text text-danger">LIFESTYLE
+                                        </p>
+                                        <p class="card-text"><small class="text-body-secondary"> MAY 15, 2024</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 mt-5">
+                            <div class="col-md-4">
+                                <img src="1700.webp" class="img-fluid rounded-start" style="height: 100px;width: 100px;"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-5">
+                                        My Shiny New Backpack</h5>
+                                    <div class="d-flex gap-2">
+                                        <p class="card-text text-danger">FASHION
+                                        </p>
+                                        <p class="card-text"><small class="text-body-secondary"> MAY 15, 2024</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="ms-5 me-5">
+            <div class=" container-fluid d-flex justify-content-between me-5 ms-5 ">
+                <div>
+                    <p>2024 ThemeSphere.Designedby.ThemeSphere</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex">
+                        <!-- <img src="facebook (5).png" alt=""> -->
+                        <i class="bi bi-facebook"></i>
+                        <p>FACEBOOK</p>
+                    </div>
+                    <div class="d-flex">
+                        <!-- <img src="twitter (4).png" alt=""> -->
+                        <i class="bi bi-twitter-x"></i>
+                        <p>X (TWITTER)</p>
+                    </div>
+                    <div class="d-flex">
+                        <!-- <img src="instagram (3).png" alt=""> -->
+                        <i class="bi bi-instagram"></i>
+                        <p>INSTAGRAM</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
